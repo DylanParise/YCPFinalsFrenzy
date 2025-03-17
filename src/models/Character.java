@@ -4,17 +4,17 @@ import java.util.List;
 public class Character {
     protected String name;
     protected int hp;
-   // protected Inventory inventory;
+    protected Inventory inventory;
 
     public Character(String name, int hp) {
         this.name = name;
         this.hp = hp;
-     // this.inventory = new Inventory(); 
+        this.inventory = new Inventory(); 
     }
 
-    //public void callInventory() {
-    // inventory.showItems();
-  //  }
+      public void callInventory() {
+       inventory.showItems();
+   }
 
     public void combat(Character opponent) {
         System.out.println(name + " is bouta brawl with " + opponent.getName());

@@ -14,9 +14,7 @@ public class NPC extends Character {
         if (aggression) {
             System.out.println(name + " attacks " + player.getName() + " for " + damage + " damage!");
             player.setHp(player.getHp() - damage);
-        } else {
-            System.out.println(name + " is not aggressive.");
-        }
+        } 
     }
 
     public String converse() {

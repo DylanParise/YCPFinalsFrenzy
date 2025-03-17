@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="junit/GameEngineTests"/>
+	<classpathentry kind="src" path="junit/ModelTests"/>
+	<classpathentry kind="src" path="main"/>
+	<classpathentry kind="src" path="src/GameEngine"/>
+	<classpathentry kind="src" path="src/models"/>
+	<classpathentry kind="src" path="src/servlets"/>
+	<classpathentry kind="src" path="src/servlets.ajax"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
