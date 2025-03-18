@@ -9,4 +9,12 @@
 	<classpathentry kind="src" path="src/servlets"/>
 	<classpathentry kind="src" path="src/servlets.ajax"/>
 	<classpathentry kind="output" path="bin"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/CS320_Jetty9"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>
